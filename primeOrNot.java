@@ -9,7 +9,7 @@ public class primeOrNot {
  int flag=0;
   for(int i=2;i<=m;i++)
   {
-	  if(n%2==0)
+	  if(n%i==0)
 	  {
 	  System.out.println("It is not prime number" );
 	  flag=1;
